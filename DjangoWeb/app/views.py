@@ -13,7 +13,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home Page',
+            'title':'Домашняя страница',
             'year':datetime.now().year,
         }
     )
@@ -25,8 +25,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'Контакты',
+            'message':'Страница контактов.',
             'year':datetime.now().year,
         }
     )
@@ -38,8 +38,8 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'About',
-            'message':'Your application description page.',
+            'title':'О проекте',
+            'message':'Здесь можно разместить описание проекта.',
             'year':datetime.now().year,
         }
     )
